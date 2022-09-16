@@ -50,11 +50,5 @@ public class JSONEventTests
       JsonConvert.SerializeObject(ShortEvent),
       JsonConvert.SerializeObject(result)
     );
-
-    // Note: This could be considered an Intergration Test by some.
-    // I'd say this falls into the Unit Test category since it needs
-    // to read a static file that must be provided at run time and
-    // that the schema for said file is required to be followed
-    // for any future files to be processed in the future.
   }
 }
