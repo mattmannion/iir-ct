@@ -1,0 +1,10 @@
+{
+  "nodemonConfig": {
+    "ext": "cs",
+    "signal": "SIGTERM",
+    "exec": "dotnet test || exit 1"
+  },
+  "scripts": {
+    "t": "nodemon"
+  }
+}

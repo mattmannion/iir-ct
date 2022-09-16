@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "d": "cd src && npm run d",
+    "t": "cd tests && npm run t"
+  }
+}

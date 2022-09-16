@@ -1,0 +1,10 @@
+{
+  "nodemonConfig": {
+    "ext": "cs",
+    "signal": "SIGTERM",
+    "exec": "func start || exit 1"
+  },
+  "scripts": {
+    "d": "nodemon"
+  }
+}
