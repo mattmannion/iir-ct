@@ -26,14 +26,14 @@ public class JSONEventTests
     "ksmith@iir.com"
   );
 
-  // It confirm the event length is corrent fot the given UTC DateTimes
+  // It confirms the event length is corrent fot the given UTC DateTimes
   [TestMethod]
   public void TestsShortEventLength()
   {
     Assert.AreEqual("09h 00m 00s", ShortEvent.EventLength());
   }
 
-  // It confirm the event length is corrent fot the given UTC DateTimes
+  // It confirms the event length is corrent fot the given UTC DateTimes
   [TestMethod]
   public void TestsLongEventLength()
   {
