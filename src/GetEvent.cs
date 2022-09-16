@@ -10,7 +10,7 @@ namespace GetEvent;
 
 public static class GetEvent
 {
-  [FunctionName("GetEvent"),]
+  [FunctionName("GetEvent")]
   public static async Task<IActionResult> Run(
       [HttpTrigger(AuthorizationLevel.Function, "GET", Route = "get-event/{id:int}")] HttpRequest req,
       ILogger log, int id)
